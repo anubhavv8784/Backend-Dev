@@ -1,0 +1,72 @@
+
+Time: 20/1/2026, 11:18:25 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.67
+Uptime (sec): 53198.375
+-----------------------------
+
+Time: 20/1/2026, 11:18:30 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.68
+Uptime (sec): 53203.218
+-----------------------------
+
+Time: 20/1/2026, 11:18:35 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.67
+Uptime (sec): 53208.234
+-----------------------------
+
+Time: 20/1/2026, 11:18:40 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.65
+Uptime (sec): 53213.234
+-----------------------------
+
+Time: 20/1/2026, 11:18:45 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.61
+Uptime (sec): 53218.234
+-----------------------------
+
+Time: 20/1/2026, 11:18:50 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.62
+Uptime (sec): 53223.25
+-----------------------------
+
+Time: 20/1/2026, 11:18:55 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.59
+Uptime (sec): 53228.265
+-----------------------------
+
+Time: 20/1/2026, 11:19:00 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.57
+Uptime (sec): 53233.281
+-----------------------------
+
+Time: 20/1/2026, 11:19:05 pm
+Platform: win32
+CPU Cores: 12
+Total Memory (GB): 13.85
+Free Memory (GB): 2.55
+Uptime (sec): 53238.281
+-----------------------------
