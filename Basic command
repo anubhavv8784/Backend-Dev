@@ -1,0 +1,75 @@
+1.3 Basic Unix Commands
+Navigation Commands
+pwd # Print working directory
+ls # List directory contents
+ls -l # Long format listing
+ls -a # Show hidden files
+ls -lh # Human-readable file sizes
+cd /path/to/directory # Change directory
+cd .. # Move up one directory
+cd ~ # Go to home directory
+cd - # Go to previous directory
+
+File and Directory Operations
+
+mkdir dirname # Create directory
+mkdir -p dir1/dir2/dir3 # Create nested directories
+rmdir dirname # Remove empty directory
+touch filename # Create empty file or update timestamp
+cp source dest # Copy file
+cp -r source dest # Copy directory recursively
+mv source dest # Move or rename file
+rm filename # Remove file
+rm -r dirname # Remove directory and contents
+rm -rf dirname # Force remove (use carefully!)
+
+File Content Commands
+cat filename # Display file contents
+less filename # View file with pagination
+head filename # Show first 10 lines
+head -n 20 filename # Show first 20 lines
+tail filename # Show last 10 lines
+tail -f filename # Follow file in real-time (logs)
+wc filename # Count lines, words, characters
+wc -l filename # Count lines only
+
+File Permissions
+ls -l # View permissions
+chmod 755 filename # Change permissions (rwxr-xr-x)
+chmod +x filename # Add execute permission
+chmod -w filename # Remove write permission
+chown user:group file # Change ownership
+
+Permission Numbers:
+● 4 = read ®
+● 2 = write (w)
+● 1 = execute (x)
+● 755 = rwxr-xr-x (owner: full, group/others: read+execute)
+● 644 = rw-r–r-- (owner: read+write, others: read only)
+Text Processing Commands
+grep "pattern" filename # Search for pattern in file
+grep -r "pattern" directory # Recursive search
+grep -i "pattern" filename # Case-insensitive search
+find /path -name "*.txt" # Find files by name
+
+sed 's/old/new/g' file # Replace text in file
+awk '{print $1}' file # Print first column
+sort filename # Sort lines
+uniq filename # Remove duplicate lines
+
+System Information
+whoami # Current username
+hostname # Computer name
+uname -a # System information
+df -h # Disk space usage
+du -sh directory # Directory size
+ps aux # Running processes
+top # Real-time process monitor
+kill PID # Terminate process
+
+Redirection and Pipes
+command > file # Redirect output to file (overwrite)
+command >> file # Append output to file
+command < file # Read input from file
+command1 | command2 # Pipe output to another command
+command 2> error.log # Redirect error messages
