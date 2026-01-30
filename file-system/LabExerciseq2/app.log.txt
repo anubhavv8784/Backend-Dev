@@ -1,0 +1,7 @@
+INFO Server started
+INFO User logged in
+ERROR Database connection failed
+WARNING Disk space low
+INFO File uploaded
+ERROR File not found
+WARNING CPU usage high
