@@ -1,0 +1,110 @@
+====================================================
+ASSESSMENT QUESTIONS – ANSWERS
+(File System and Streams – Node.js)
+====================================================
+
+1. Difference between synchronous and asynchronous file operations
+
+Synchronous file operations:
+
+- Execution of the program stops until the file operation is completed.
+- The next line of code runs only after the operation finishes.
+- It is simpler but slower for large files.
+
+Asynchronous file operations:
+
+- Execution of the program does not stop.
+- File operations run in the background.
+- It is faster and more efficient for large applications.
+
+---
+
+2. When should you use file streams instead of reading the entire file?
+
+File streams should be used when:
+
+- The file size is very large.
+- Memory usage needs to be minimized.
+- Data is processed line by line.
+- Working with log files or continuous data.
+
+Streams read data in small chunks instead of loading the entire file at once.
+
+---
+
+3. Purpose of the 'utf8' encoding parameter in file operations
+
+The 'utf8' encoding parameter:
+
+- Converts file data into readable text format.
+- Ensures correct display of characters.
+- Prevents data from being returned as binary or buffer format.
+
+Without 'utf8', file content is returned as raw binary data.
+
+---
+
+4. Common error codes in file system operations and their meanings
+
+ENOENT : File or directory does not exist  
+EACCES : Permission denied  
+EISDIR : Operation attempted on a directory  
+EMFILE : Too many open files  
+ENOTDIR : Expected a directory but found a file
+
+---
+
+5. How would you safely delete a directory with all its contents?
+
+To safely delete a directory:
+
+- First check whether the directory exists.
+- Remove all files inside the directory.
+- Delete all subdirectories recursively.
+- Finally delete the main directory.
+
+This prevents errors and accidental data loss.
+
+---
+
+6. Explain the concept of piping in streams with an example
+
+Piping is used to transfer data from one stream to another automatically.
+
+For example:
+
+- Reading data from a file.
+- Writing that data directly into another file.
+
+Piping improves performance and reduces memory usage.
+
+---
+
+7. Why is it important to handle errors in file operations?
+
+Error handling is important because:
+
+- Files may not exist.
+- Permission may be denied.
+- Disk may be full.
+- Program may crash without proper handling.
+
+Handling errors makes the program reliable and stable.
+
+---
+
+8. Difference between writeFile and appendFile methods
+
+writeFile:
+
+- Overwrites the existing content of a file.
+- Creates a new file if it does not exist.
+
+appendFile:
+
+- Adds new content to the end of the file.
+- Preserves the existing content.
+
+====================================================
+END OF ANSWERS
+====================================================
