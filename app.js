@@ -1,25 +1,24 @@
 const express = require("express");
+const fs = require("fs");
 const app = express();
 
-const students = [
-  { id: 1, name: "ANUBHAV", branch: "ECE", address: "Delhi" },
-  { id: 2, name: "ASHWANI", branch: "CSE", address: "UP" },
-  { id: 3, name: "RAHUL", branch: "ME", address: "Bihar" }
-];
+console.log("App starting...");
 
+try {
+  const students = JSON.parse(
+    fs.readFileSync("./students.json", "utf-8")
+  );
 
-app.get("/students/:id", (req, res) => {
-  const id = Number(req.params.id);   
+  console.log("Students file loaded successfully");
 
-  const student = students.find(s => s.id === id);
+  app.get("/students", (req, res) => {
+    res.json(students);
+  });
 
-  if (student) {
-    res.json(student);
-  } else {
-    res.json({ message: "Student not found" });
-  }
-});
+} catch (error) {
+  console.log("Error reading students.json:", error.message);
+}
 
-app.listen(8000, () => {
-  console.log("Server running on http://localhost:8000");
+app.listen(3000, () => {
+  console.log("Server running at http://localhost:3000");
 });

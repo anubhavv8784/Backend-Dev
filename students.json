@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Rahul", "course": "BCA" },
+  { "id": 2, "name": "Amit", "course": "BBA" },
+  { "id": 3, "name": "Riya", "course": "BCA" },
+  { "id": 4, "name": "Neha", "course": "MBA" },
+  { "id": 5, "name": "Raj", "course": "BCA" }
+]
