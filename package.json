@@ -1,0 +1,14 @@
+{
+  "name": "cookies-and-sessions-assignment",
+  "version": "1.0.0",
+  "description": "Practice exercises for cookies and sessions in Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
