@@ -1,0 +1,14 @@
+{
+  "name": "middlewares-assignment",
+  "version": "1.0.0",
+  "description": "Practice exercises for Express and Mongoose middleware",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  }
+}
